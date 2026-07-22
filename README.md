@@ -6,16 +6,13 @@ Shareable memory, skills, and setup for designers prototyping with Claude Code a
 connors-claude-brain/
 │
 ├── memory/                                 LEARNED BEHAVIOURS
-│   ├── read-before-writing.md              Research before coding
-│   ├── never-invent-apis.md                Only real documented APIs
-│   ├── diagnose-before-fixing.md           Understand root cause first
-│   ├── test-dont-rush.md                   Correctness over speed
-│   ├── verify-design-system-props.md       Always check MCP for props
+│   ├── read-before-writing.md              Read source and docs before writing anything
+│   ├── never-invent-apis.md                Verify APIs and props exist before using them
+│   ├── diagnose-before-fixing.md           Understand first, test each change, never rush
 │   ├── commit-after-progress.md            Save work frequently
 │   ├── never-delete-without-preserving.md  Preserve before destroying
 │   ├── dataset-awareness.md                Use hooks, never bypass filtering
-│   ├── audit-derived-values.md             Verify computed not hardcoded
-│   └── dig-into-components.md              Read source before overriding
+│   └── audit-derived-values.md             Verify computed not hardcoded
 │
 ├── skills/                                 DOMAIN KNOWLEDGE
 │   ├── wise-designer.md                    Neptune DS + web/mobile prototypes
@@ -79,16 +76,13 @@ mkdir -p ~/.claude/skills/add-dataset && cp skills/add-dataset.md ~/.claude/skil
 
 | File | What it teaches Claude |
 |------|----------------------|
-| `read-before-writing.md` | Research and confirm understanding before writing any code |
-| `never-invent-apis.md` | Only use real documented APIs — never fabricate props or effects |
-| `diagnose-before-fixing.md` | Understand root cause before attempting fixes |
-| `test-dont-rush.md` | Test each change individually, prefer correctness over speed |
-| `verify-design-system-props.md` | Always check Neptune component props via MCP |
+| `read-before-writing.md` | Read source, docs, and component implementations before writing anything |
+| `never-invent-apis.md` | Verify APIs and props exist (via MCP) before using them — never fabricate |
+| `diagnose-before-fixing.md` | Understand root cause first, test each change individually, never rush |
 | `commit-after-progress.md` | Commit locally after meaningful work to avoid losing progress |
 | `never-delete-without-preserving.md` | Always preserve before destructive operations |
 | `dataset-awareness.md` | Use hook layer for data, never bypass dataset filtering |
 | `audit-derived-values.md` | Verify computed values are actually computed, not hardcoded |
-| `dig-into-components.md` | Read component source before writing overrides |
 
 ---
 
