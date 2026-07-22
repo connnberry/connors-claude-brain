@@ -1,5 +1,5 @@
 ---
-name: never-invent-apis
+name: never-invent
 description: Never fabricate APIs, component names, props, tokens, or colour values — verify everything exists before using it
 metadata:
   type: feedback

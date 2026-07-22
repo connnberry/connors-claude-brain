@@ -7,7 +7,7 @@ connors-claude-brain/
 │
 ├── memory/                                 LEARNED BEHAVIOURS
 │   ├── read-before-writing.md              Read source and docs before writing anything
-│   ├── never-invent-apis.md                Verify APIs and props exist before using them
+│   ├── never-invent.md                     Verify APIs and props exist before using them
 │   ├── diagnose-before-fixing.md           Understand first, test each change, never rush
 │   ├── commit-after-progress.md            Save work frequently
 │   ├── never-delete-without-preserving.md  Preserve before destroying
@@ -76,7 +76,7 @@ mkdir -p ~/.claude/skills/add-dataset && cp skills/add-dataset.md ~/.claude/skil
 | File | What it teaches Claude |
 |------|----------------------|
 | `read-before-writing.md` | Read source, docs, and component implementations before writing anything |
-| `never-invent-apis.md` | Verify APIs and props exist (via MCP) before using them — never fabricate |
+| `never-invent.md` | Verify APIs and props exist (via MCP) before using them — never fabricate |
 | `diagnose-before-fixing.md` | Understand root cause first, test each change individually, never rush |
 | `commit-after-progress.md` | Commit locally after meaningful work to avoid losing progress |
 | `never-delete-without-preserving.md` | Always preserve before destructive operations |
