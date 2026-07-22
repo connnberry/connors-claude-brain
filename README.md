@@ -24,7 +24,6 @@ connors-claude-brain/
 │   ├── figma                               Read, generate, push designs
 │   ├── github                              PRs, code search, @transferwise
 │   ├── atlassian                           Jira + Confluence access
-│   ├── swift-lsp                           Swift code intelligence
 │   ├── claude-md-management                Manage CLAUDE.md files
 │   └── code-simplifier                     Review + clean up code
 │
@@ -104,7 +103,6 @@ mkdir -p ~/.claude/skills/add-dataset && cp skills/add-dataset.md ~/.claude/skil
 | `figma` | claude-plugins-official | Read designs from Figma, generate designs, push to Figma |
 | `github` | claude-plugins-official | Push code, manage repos, search @transferwise org |
 | `atlassian` | claude-plugins-official | Access Jira/Confluence for context on tickets and specs |
-| `swift-lsp` | claude-plugins-official | Swift language intelligence (for iOS reference work) |
 | `claude-md-management` | claude-plugins-official | Skills for managing CLAUDE.md files |
 | `code-simplifier` | claude-plugins-official | Agent for reviewing and simplifying code |
 
